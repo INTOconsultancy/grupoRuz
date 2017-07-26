@@ -1,0 +1,140 @@
+.js #no-js-searchbox {
+  display: none;
+}
+
+/*
+ * The code below is just applying styles and has nothing to do with
+ * the CSS/JS detection process.
+ */
+body {
+  font: 12px/1.7 'open sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form /*, p*/ {
+  text-align: center;
+}
+
+.containerClass {
+  margin: 0 auto;
+  width: auto;
+}
+.home-products, .slider-videos-content{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.home-products-scroll, .slider-videos-slide{
+    white-space: nowrap;
+    position: relative;
+    transition: .5s ease;
+}
+.home-products .w-col{
+    float: initial!important;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: initial;
+    width: 24.8%;
+}
+.seccion-nuestrosproductos{
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.producto-categoria-nombre.producto-1 h2{
+    color: #548a8b!important;
+}
+.avanzar-slider, .retroceder-slider {
+    position: absolute;
+    bottom: 40%;
+    cursor: pointer;
+}
+.retroceder-slider {
+    left: 50px;
+}
+.avanzar-slider {
+    right: 50px;
+}
+.button.button-productos, .button.button-marcas, .button.button-publicidad{
+    width: 300px!important;
+}
+.btn{
+    background: #ea7200;
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    height: 55px;
+}
+div#anuncios-ruz {
+    display: none;
+}
+.video-item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 23.5%;
+    height: 180px;
+}
+.video-item:last-child{
+    margin-right: 0px;
+}
+.video-item .w-col-3 {
+    width: 100%;
+    padding: initial!important;
+}
+.videos-right, .videos-left {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.videos-right{
+    right: 1%;
+}
+.slider-videos {
+    position: relative;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.contact-section{
+    width: 100%;
+    position: relative;
+    top: -20px;
+    background-image: url('../images/textura-contacto.jpg');
+}
+.form-content {
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 300px;
+}
+.form-content label {
+    color: white;
+    text-align: left;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.form-content .w-col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.form-content .alignment-three{
+    width: 33.3%!important;
+    display: inline-block;
+    vertical-align: middle;
+}
+.label-gracias{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+.tel-alignment{
+    padding-left: 11px;
+}

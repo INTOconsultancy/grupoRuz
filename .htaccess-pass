@@ -1,0 +1,7 @@
+Authtype Basic
+AuthName "Protected directory"
+AuthUserFile /var/sites/i/intoconsultancy.com/.htpasswd
+Require user gruporuz
+<IfModule mod_dummy.c>
+AuthUserFile \\PDC1\sites\i\intoconsultancy.com\.htpasswd
+</IfModule>
