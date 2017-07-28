@@ -76,7 +76,7 @@ li {
   line-height: 25px;
   font-weight: 500;
   text-align: center;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif!important;
   font-weight: lighter!important;
 }
 
@@ -128,35 +128,35 @@ li {
 }
 
 .producto-categoria-circulo.producto6 {
-  background-color: #e2c8ff;
+  background-color: #6d1b96;
 }
 
 .producto-categoria-circulo.producto-7 {
-  background-color: #d0e4f2;
+  background-color: #fd8a00;
 }
 
 .producto-categoria-circulo.producto-8 {
-  background-color: #efffe7;
+  background-color: #3f89e4;
 }
 
 .producto-categoria-circulo.producto-9 {
-  background-color: #d7ffd1;
+  background-color: #ffed00;
 }
 
 .producto-categoria-circulo.producto-10 {
-  background-color: #fed8d6;
+  background-color: #e70094;
 }
 
 .producto-categoria-circulo.producto-11 {
-  background-color: #fffb9c;
+  background-color: #6d1b96;
 }
 
 .producto-categoria-circulo.producto-12 {
-  background-color: #fff199;
+  background-color: #fc8a00;
 }
 
 .producto-categoria-circulo.producto-13 {
-  background-color: #ffd89b;
+  background-color: #3f8ae5;
 }
 
 /*Light box*/
@@ -340,6 +340,8 @@ border-style: solid;
 border-width: 15px 100px 0 100px;
 border-color: #e8e8e8 transparent transparent transparent;
 margin-bottom: 60px;
+position: relative;
+left: 38px;
 }
 
 .producto-categoria-nombre.producto-1 {
@@ -363,36 +365,40 @@ margin-bottom: 60px;
 }
 
 .producto-categoria-nombre.producto-6 {
-  background-color: #ffb4b0;
+  background-color: #e60093;
   box-shadow: 3px 3px 5px 0 #c7c7c7;
 }
 
 .producto-categoria-nombre.producto-7 {
-  background-color: #fffa7a;
+  background-color: #feec00;
 }
-
+.producto-categoria-nombre.producto-7 h2{
+    color: #15aaf5!important;
+}
 .producto-categoria-nombre.producto-8 {
-  background-color: #a2ecc0;
+  background-color: #6e1c97;
 }
 
 .producto-categoria-nombre.producto-9 {
-  background-color: #fffa7a;
+  background-color: #47bc00;
 }
 
 .producto-categoria-nombre.producto-10 {
-  background-color: #a6ffa4;
+  background-color: #15aaf5;
 }
 
 .producto-categoria-nombre.producto-11 {
-  background-color: #d8b9f2;
+  background-color: #e60093;
 }
 
 .producto-categoria-nombre.producto-12 {
-  background-color: #ffb4b0;
+  background-color: #ffed00;
 }
-
+.producto-categoria-nombre.producto-12 h2{
+    color: #15aaf5!important;
+}
 .producto-categoria-nombre.producto-13 {
-  background-color: #8bd8f6;
+  background-color: #6e1c97;
 }
 
 .linea-diagonal {
@@ -923,6 +929,8 @@ background-image: url('../images/anuncio-2-2.jpg');
   text-decoration: none;
   font-family: 'Exo', sans-serif!important;
   font-weight: bolder!important;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 .h1-nuestros-productos a{
     color: #3e8ede!important;
@@ -944,7 +952,7 @@ background-image: url('../images/anuncio-2-2.jpg');
 
 
 .nav-logo {
-  width: 350px;
+  width: 220px;
   height: 105px;
   margin-left: 20px;
   background-image: url('../images/logo-grupo-ruz.jpg');
@@ -960,6 +968,8 @@ background-image: url('../images/anuncio-2-2.jpg');
   line-height: 60px;
   font-family: 'Exo', sans-serif!important;
   font-weight: bolder!important;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 
 .h1-publicidad {
@@ -969,6 +979,8 @@ background-image: url('../images/anuncio-2-2.jpg');
   line-height: 60px;
   font-family: 'Exo', sans-serif!important;
   font-weight: bolder!important;
+  font-size: 40px;
+  letter-spacing: 1px;
 }
 .h1-contacto {
   width: 215px;
@@ -1006,8 +1018,8 @@ background-image: url('../images/anuncio-2-2.jpg');
 
 .menu-logo {
   height: 40px;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 15px;
+  margin-left: 15px;
   float: left;
 }
 
@@ -1118,12 +1130,19 @@ background-image: url('../images/anuncio-2-2.jpg');
   color: black;
   letter-spacing: 1px;
   padding: 3px;
+  font-size: 13px;
 }
 
 .language-switcher a.active-language{
-    background-color: #6eaedf;
+    background-color: #4c91e6;
     border-radius: 50%;
     color: white;
+    text-align: center;
+    padding: initial;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    display: inline-block;
 }
 
 div.sample_attach, a.sample_attach {
@@ -1236,17 +1255,17 @@ form.sample_attach {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: #02a9b8;
+  background-color: #00a9bd;
   box-shadow: inset 0 0 8px 0 #02d9ec, 1px -1px 3px 0 #014f56;
 }
 
 .nav-link.navlink-quienessomos:hover {
-  background-color: #0ac9d3;
+  background-color: #00c2c0;
   box-shadow: inset 0 0 8px 0 #02d9ec, 1px -1px 3px 0 #014f56;
 }
 
 .nav-link.navlink-quienessomos:focus {
-  background-color: #0ac9d3;
+  background-color: #00c2c0;
 }
 
 .nav-link.navlink-quienessomos.w--current {
@@ -1261,7 +1280,7 @@ form.sample_attach {
 }
 
 .nav-link.navlink-productos {
-  background-color: #0976c2;
+  background-color: #3e8ede;
   box-shadow: inset 0 0 8px 0 #0397fd, 1px -1px 3px 0 #04375a;
 }
 
@@ -1272,20 +1291,20 @@ form.sample_attach {
 }
 
 .nav-link.navlink-productos._1:hover {
-  background-color: #1ba2d8;
+  background-color: #2581de;
 }
 
 .nav-link.navlink-productos._1:focus {
-  background-color: #1ba2d8;
+  background-color: #2581de;
 }
 
 .nav-link.navlink-productos._1.w--current {
-  background-color: #1ba2d8;
+  background-color: #2581de;
   font-weight: 700;
 }
 
 .nav-link.navlink-marcas {
-  background-color: #7a4dc8;
+  background-color: #545386;
   box-shadow: inset 0 0 8px 0 #9c64fd, 1px -1px 3px 0 #38245d;
 }
 
@@ -1296,21 +1315,21 @@ form.sample_attach {
 }
 
 .nav-link.navlink-marcas._1:hover {
-  background-color: #9f78da;
+  background-color: #473e8e;
 }
 
 .nav-link.navlink-marcas._1:focus {
-  background-color: #9f78da;
+  background-color: #473e8e;
 }
 
 .nav-link.navlink-marcas._1.w--current {
-  background-color: #9f78da;
+  background-color: #473e8e;
   font-weight: 700;
   text-align: center;
 }
 
 .nav-link.navlink-promocionales {
-  background-color: #f9418a;
+  background-color: #ea188f;
   box-shadow: inset 0 0 8px 0 #fd6fa8, 1px -1px 3px 0 #e62020;
 }
 
@@ -1321,21 +1340,21 @@ form.sample_attach {
 }
 
 .nav-link.navlink-promocionales._1:hover {
-  background-color: #f956a5;
+  background-color: #ed006a;
 }
 
 .nav-link.navlink-promocionales._1:focus {
-  background-color: #f956a5;
+  background-color: #ed006a;
 }
 
 .nav-link.navlink-promocionales._1.w--current {
-  background-color: #f956a5;
+  background-color: #ed006a;
   font-weight: 700;
 }
 
 .nav-link.navlink-publicidad {
   margin-right: 1px;
-  background-color: #ff6000;
+  background-color: #f9b600;
   box-shadow: inset 0 0 8px 0 #fa9152, 1px -1px 3px 0 #bd4c01;
 }
 
@@ -1346,15 +1365,15 @@ form.sample_attach {
 }
 
 .nav-link.navlink-publicidad._1:hover {
-  background-color: #ff9000;
+  background-color: #ffcc00;
 }
 
 .nav-link.navlink-publicidad._1:focus {
-  background-color: #ff9000;
+  background-color: #ffcc00;
 }
 
 .nav-link.navlink-publicidad._1.w--current {
-  background-color: #ff9000;
+  background-color: #ffcc00;
   font-weight: 700;
 }
 
@@ -1384,7 +1403,7 @@ form.sample_attach {
 }
 
 .nav-link.navlink-premios {
-  background-color: #97bd00;
+  background-color: #3db835;
   box-shadow: inset 0 0 8px 0 #aaca2b, 1px -1px 3px 0 #6b8600;
 }
 
@@ -1395,15 +1414,15 @@ form.sample_attach {
 }
 
 .nav-link.navlink-premios._1:hover {
-  background-color: #bbd600;
+  background-color: #3db835;
 }
 
 .nav-link.navlink-premios._1:focus {
-  background-color: #bbd600;
+  background-color: #3db835;
 }
 
 .nav-link.navlink-premios._1.w--current {
-  background-color: #bbd600;
+  background-color: #3db835;
   font-weight: 700;
 }
 
@@ -2747,12 +2766,12 @@ h2.producto-fondo-titulo{
   float: right;
   border-radius: 15px;
   background-color: #ea7200;
-  line-height: 30px;
+  line-height: 40px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
   color: white;
   border: none!important;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 #form-php .btn-contacto {
@@ -3296,7 +3315,7 @@ h2.producto-fondo-titulo{
   margin-left: auto;
   background-image: url('../images/banner-truzt.jpg');
   background-position: 50% 50%;
-  background-size: contain;
+  background-size: 900px 110px;
   background-repeat: no-repeat;
   margin-bottom: 60px;
 }
