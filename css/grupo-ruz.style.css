@@ -1443,11 +1443,14 @@ form.sample_attach {
 }
 
 .nav-menu {
-  height: 60px;
-  position: absolute;
-  bottom: 0;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
     transform: translateX(-50%);
+    min-width: 890px;
 }
 
 .btn {
@@ -1516,7 +1519,7 @@ form.sample_attach {
 }
 
 .seccion.valores {
-  background-image: url('../images/fondo-valores.jpg');
+  background-image: url('../images/fondo-somos.png');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1603,11 +1606,14 @@ form.sample_attach {
 }
 
 .h1-seccion-inicial {
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  border-bottom: 7px none #22a7b1;
-  color: #1b3f94;
+    font-family: 'Exo', sans-serif!important;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    border-bottom: 7px none #22a7b1;
+    color: #00838f;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
 
 .parrafo-secundario {
@@ -1619,8 +1625,13 @@ form.sample_attach {
 
 .parrafo-secundario.p-quienessomos {
   padding-left: 20px;
-  border-left: 1px solid #00838f;
+  border-left: 3px solid #9bdae0;
   color: #00838f;
+  font-family: 'Exo', sans-serif!important;
+  font-weight: bolder!important;
+  font-size: 16px;
+  padding-right: 42px;
+  min-height: 75px;
 }
 
 .parrafo-secundario.p-productos {
@@ -1791,8 +1802,9 @@ form.sample_attach {
 }
 
 .secundario {
-  border-bottom: 2px solid #02a9b8;
-  color: #1c3f95;
+  color: #545386;
+  font-family: 'Exo', sans-serif!important;
+  font-weight: bolder!important;
   font-size: 26px;
   line-height: 50px;
 }
@@ -1841,8 +1853,6 @@ form.sample_attach {
     margin-right: auto;
     margin-bottom: 0px;
     margin-left: auto;
-    border-bottom: 7px none #22a7b1;
-    color: #1b3f94;
 }
 
 .linea-titulo-h1.contacto.aviso {
@@ -1855,12 +1865,12 @@ form.sample_attach {
 }
 
 .img-instalaciones-ruz {
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
-  border: 5px solid #fff;
+  border: 5px solid #f7ce3c;
   border-radius: 50%;
   background-image: url('../images/example-bg.png');
   background-position: 0px 0px;

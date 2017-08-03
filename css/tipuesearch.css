@@ -19,12 +19,15 @@ http://www.tipue.com/search
     background-position: 93% 50%;
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    font-family: Nunito, sans-serif;
-    font-size: 14px;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    font-size: 16px;
     width: 220px;
     background-color: #cfebeb!important;
+    border: none;
 }
-
+#tipue_search_input::placeholder{
+    color: #97aeaf;
+}
 #searchbox > form > input[type="submit"]:nth-child(2){
     display: none;
 }

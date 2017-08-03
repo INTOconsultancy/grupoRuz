@@ -138,3 +138,154 @@ div#anuncios-ruz {
 .tel-alignment{
     padding-left: 11px;
 }
+.content-photo .w-col {
+    float: initial;
+    display: inline-block;
+    vertical-align: middle;
+    width: initial;
+}
+.content-photo {
+    text-align: center;
+    margin-top: -100px;
+}
+.content-valores h2.secundario {
+    color: white;
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+}
+.middle{
+    vertical-align: middle;
+}
+.valores-inline{
+    width: 33.3%;
+}
+.valor-title{
+    color: #f7ce3c;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 20px;
+    line-height: 18px;
+}
+.valor-des{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    font-size: 16px;
+    padding-right: 80px;
+}
+.valor-item {
+    margin-bottom: 10px;
+}
+.marca-operadora, .marca-fantasy, .marca-imagine{
+    width: 33.333%;
+    height: 800px;
+    padding: 0px 60px;
+    padding-top: 80px;
+}
+.marca-operadora{
+    background-color: #545386;
+}
+.marca-fantasy{
+    background-color: #f7ce3c;
+}
+.marca-imagine{
+    background-color: #ea7200;
+}
+.title-marca{
+    color: white;
+    font-size: 26px;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    padding-left: 20px;
+}
+.parrafo-marca{
+    font-family: 'Alegreya Sans', sans-serif!important;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    margin-top: 23px;
+    letter-spacing: 0.5px;
+}
+.marca-fantasy .parrafo-marca{
+    color: black;
+}
+.head-marca {
+    text-align: center;
+}
+.premio-item {
+    width: 21.5%;
+    height: 490px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 21px;
+    margin-right: 23px;
+}
+.premio-purple{
+    background: #545386;
+}
+.premio-blue{
+    background: #3e8ede;
+}
+.premio-orange{
+    background: #ea7200;
+}
+.name-premio {
+    width: 100%;
+    background: #f7ce3c;
+    height: 60px;
+    color: #545386;
+    font-size: 16px;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 18px;
+}
+.year-premio{
+    font-family: 'Alegreya Sans', sans-serif!important;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.desc-premio{
+    color: white;
+    font-size: 14px;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    font-weight: normal;
+    line-height: 19px;
+}
+.content-premios-item {
+    text-align: center;
+}
+.premio-item:nth-child(4n){
+    margin-right: 0px!important;
+}
+.title-premios {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 70px;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    color: #545386;
+}
+.subtitle-premios {
+    width: 24%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    color: #595959;
+}
+.premios-section {
+    padding-bottom: 100px;
+}
+.title-productos{
+    color: #2581de;
+}
