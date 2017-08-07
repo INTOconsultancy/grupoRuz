@@ -289,3 +289,76 @@ div#anuncios-ruz {
 .title-productos{
     color: #2581de;
 }
+.productos-baner{
+    position: relative;
+}
+.image-suelta{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.image-arturo{
+    right: 5%;
+}
+.secundario.variedad-productos{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+h2.producto-fondo-titulo{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 40px;
+    color: white!important;
+}
+.productos-p-descripcion {
+    width: 75%;
+    margin-left: 85px;
+    color: white!important;
+    font-family: 'Alegreya Sans', sans-serif!important;
+    font-size: 14px;
+}
+.productos-fondo-descripcion{
+    min-height: 240px!important;
+}
+.color-purple{
+    color: #702c91!important;
+}
+span.eye-galeria {
+    position: relative;
+    left: -6px;
+}
+p.strong.no-pirateria {
+    margin-bottom: 0px;
+    line-height: 32px;
+    font-weight: bolder;
+}
+.portada-pagina.donde-comprar .h1-seccion-inicial {
+    color: #ed006a;
+    margin-top: 0px;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+}
+.logo-comprar {
+    margin: 30px 12px;
+}
+.no-pirateria{
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+}
+.portada-pagina.publicidad .descripcion-seccion.p-small {
+    width: 490px;
+}
+.desc-contacto{
+    width: 750px!important;
+}
+.seccion.portada-pagina .h1-seccion-inicial{
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    color: #3db835;
+}
+.form-page-contacto .w-input, .form-page-contacto .w-select{
+    background: #eceff1;
+    border-color: #dcdcdc;
+}
