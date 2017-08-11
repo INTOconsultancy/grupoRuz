@@ -158,6 +158,9 @@ div#anuncios-ruz {
 .middle{
     vertical-align: middle;
 }
+.top{
+    vertical-align: top;
+}
 .valores-inline{
     width: 33.3%;
 }
@@ -175,12 +178,12 @@ div#anuncios-ruz {
     padding-right: 80px;
 }
 .valor-item {
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 }
 .marca-operadora, .marca-fantasy, .marca-imagine{
     width: 33.333%;
     height: 800px;
-    padding: 0px 60px;
+    padding: 0px 48px;
     padding-top: 80px;
 }
 .marca-operadora{
@@ -211,7 +214,7 @@ div#anuncios-ruz {
     color: black;
 }
 .head-marca {
-    text-align: center;
+    text-align: left;
 }
 .premio-item {
     width: 21.5%;
@@ -243,7 +246,7 @@ div#anuncios-ruz {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 18px;
+    line-height: 20px;
 }
 .year-premio{
     font-family: 'Alegreya Sans', sans-serif!important;
@@ -275,7 +278,7 @@ div#anuncios-ruz {
     color: #545386;
 }
 .subtitle-premios {
-    width: 24%;
+    width: 27%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 35px;
@@ -287,7 +290,7 @@ div#anuncios-ruz {
     padding-bottom: 100px;
 }
 .title-productos{
-    color: #2581de;
+    color: #2581de!important;
 }
 .productos-baner{
     position: relative;
@@ -356,9 +359,18 @@ p.strong.no-pirateria {
 .seccion.portada-pagina .h1-seccion-inicial{
     font-family: 'Exo', sans-serif!important;
     font-weight: bolder!important;
-    color: #3db835;
+}
+.green-color{
+    color: #3db835!important;
 }
 .form-page-contacto .w-input, .form-page-contacto .w-select{
     background: #eceff1;
     border-color: #dcdcdc;
+}
+.h1-seccion-inicial{
+    font-size: 40px!important;
+}
+.seccion.content-productos-loop {
+    max-width: 1600px;
+    margin: 0 auto;
 }

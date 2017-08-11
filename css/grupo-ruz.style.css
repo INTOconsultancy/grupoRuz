@@ -101,8 +101,8 @@ li {
   width: 450px;
 }
 .producto-categoria-circulo {
-  width: 265px;
-  height: 265px;
+  width: 270px;
+  height: 270px;
   padding: 10px;
   border-radius: 50%;
   margin: 0 auto;
@@ -963,6 +963,7 @@ background-image: url('../images/anuncio-2-2.jpg');
   background-position:left;
   background-repeat: no-repeat;
   background-size: 470px;
+  position: absolute;
 }
 
 .h1-nuestras-marcas {
@@ -1024,7 +1025,7 @@ background-image: url('../images/anuncio-2-2.jpg');
   height: 40px;
   margin-right: 15px;
   margin-left: 15px;
-  float: left;
+  display: inline-block;
 }
 
 .menu-logo.logo-1 {
@@ -1068,7 +1069,7 @@ background-image: url('../images/anuncio-2-2.jpg');
 .navbar-social-icon {
   padding-right: 8px;
   padding-left: 8px;
-  float: left;
+  display: inline-block;
   font-family: 'Fontawesome webfont', sans-serif;
   color: #055cad;
   font-size: 24px;
@@ -1104,7 +1105,8 @@ background-image: url('../images/anuncio-2-2.jpg');
 }
 
 #searchbox input{
-  font-family: 'Alegreya Sans', sans-serif!important;
+    font-family: 'Exo', sans-serif!important;
+    color: #879999;
 }
 
 #search-results #searchbox{
@@ -1120,14 +1122,16 @@ background-image: url('../images/anuncio-2-2.jpg');
     color: #0397fd!important;
 }
 #searchbox{
-  float: left!important;
-    margin-top: 5px!important;
+    display: inline-block;
+    position: relative;
+    top: -5px;
 }
-
 .language-switcher{
-    float: left;
     margin: 0 20px;
     padding: 12px 0;
+    display: inline-block;
+    position: relative;
+    top: -5px;
 }
 .language-switcher a{
   font-weight: 700;
@@ -1200,9 +1204,10 @@ form.sample_attach {
 }
 
 .sub-menu {
-  padding-right: 30px;
-  float: right;
-  /*padding-left: 120px; se agrego sin el buscador*/
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
 
 .nav-link {
@@ -1580,7 +1585,7 @@ form.sample_attach {
     line-height: 60px;
 }
 .seccion.portada-pagina.productos {
-    background-image: url('../images/productos/baner.png');
+    background-image: url('../images/productos/baner_2.png');
     background-position: 50% 100%;
     background-size: cover;
     min-height: initial!important;
@@ -1884,7 +1889,7 @@ form.sample_attach {
   margin-right: auto;
   margin-bottom: 20px;
   margin-left: auto;
-  border: 5px solid #f7ce3c;
+  border: 7px solid #f7ce3c;
   border-radius: 50%;
   background-image: url('../images/example-bg.png');
   background-position: 0px 0px;
@@ -2483,7 +2488,7 @@ margin: auto;
 .producto-fondo-titulo {
   margin-top: 0px;
   margin-right: -10px;
-  margin-left: -50px;
+  margin-left: 20px;
   padding: 10px 10px 10px 50px;
   box-shadow: 0 -4px 5px 0 #c7c7c7;
   text-align: center;
@@ -2746,8 +2751,6 @@ h2.producto-fondo-titulo{
     color: #1c3f95;
     font-weight: 700;
 }
-
-
 .contacto-datos {
   margin-bottom: 20px;
 }
@@ -4481,7 +4484,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     min-height: 350px;
   }
   .h1-seccion-inicial {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 80px;
   }
   .parrafo-secundario.p-quienessomos {
@@ -5340,7 +5343,11 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     line-height: 30px;
   }
 }
-
+@media screen and (min-width: 1600px) {
+    .sub-menu{
+        text-align: center;
+    }
+}
 
 @font-face {
   font-family: 'Fontawesome webfont';
