@@ -754,7 +754,7 @@ textarea.w-select {
   z-index: 2;
   top: auto;
   right: 0;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   margin: auto;
   padding-top: 10px;

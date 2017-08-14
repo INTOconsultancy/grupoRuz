@@ -774,10 +774,10 @@ background-image: url('../images/anuncio-2-2.jpg');
 }
 
 .footer-logo {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: 70px;
   margin-top: 10px;
-  margin-right: 55px;
+  margin-right: 30px;
   margin-bottom: 10px;
   float: left;
 }
@@ -1495,8 +1495,8 @@ form.sample_attach {
 }
 
 .columna-footer {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .footer-social-icon {
@@ -1617,10 +1617,8 @@ form.sample_attach {
   font-size: 18px;
 }
 .footer-azul {
-  padding-top: 300px;
-  background-image: url('../images/large-textura-grupo-ruz.jpg');
-  background-position: 0px 0px;
-  background-size: 83px 153px;
+  padding-top: 230px;
+  background-image: url('../images/textura-contacto.jpg');
 }
 
 .h1-seccion-inicial {
@@ -3358,7 +3356,7 @@ h2.producto-fondo-titulo{
   margin-left: auto;
   background-image: url('../images/banner-truzt.jpg');
   background-position: 50% 50%;
-  background-size: 1200px 150px;
+  background-size: 850px 120px;
   background-repeat: no-repeat;
   margin-bottom: 60px;
 }
@@ -3432,7 +3430,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
 @media all and (max-width: 2000px) and (min-width: 1400px){
 	.footer {
     background-position: center top;
-    padding: 200px 20px 20px;
+    padding: 150px 20px 20px;
   }
   .slider {
     height: 400px;
