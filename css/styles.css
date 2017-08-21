@@ -410,3 +410,595 @@ p.strong.no-pirateria {
 .btn:hover, .btn-contacto:hover{
     background-color: #ff8d00!important;
 }
+.nav-responsive{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1439px) {
+    .footer-logo{
+        margin-right: 30px!important;
+        width: 90px;
+    }
+    .menu-logo{
+        width: 120px!important;
+        margin-right: 14px!important;
+    }
+    .menu-logo.logo-4{
+        width: 45px!important;
+    }
+    .menu-logo.logo-1{
+        width: 60px!important;
+    }
+    .navbar-social-icon{
+        padding-right: 4px!important;
+        padding-left: 4px!important;
+    }
+    .nav-logo{
+        width: 175px;
+        background-size: 400px;
+    }
+    #tipue_search_input{
+        width: 200px;
+    }
+    .img-instalaciones-ruz{
+        width: 150px;
+        height: 150px;
+    }
+    .marca-operadora, .marca-fantasy, .marca-imagine{
+        padding-top: 40px;
+        height: 850px;
+    }
+    .productos-fondo-descripcion{
+        margin-left: -125px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .columna-footer {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .footer>.w-row {
+        padding: 0px 10px;
+    }
+    .footer-logo{
+        margin-right: 25px;
+    }
+    .img-instalaciones-ruz {
+        width: 130px;
+        height: 130px;
+    }
+    .content-photo .w-col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .image-marca {
+        width: 55px;
+    }
+
+    .title-marca {
+        font-size: 22px;
+        padding-left: 12px;
+    }
+    .marca-operadora, .marca-fantasy, .marca-imagine {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .seccion.valores {
+        margin-top: 70px;
+    }
+    .productos-fondo-descripcion {
+        margin-left: -220px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .home-products .w-col{
+        width: 50%;
+    }
+    .home-products{
+        width: 80%;
+    }
+    .form-content {
+        width: 70%;
+    }
+    .seccion-publicidad{
+        padding: 20px 20px 100px;
+    }
+    .video-item{
+        width: 47.5%;
+    }
+    p.descripcion-seccion.home br {
+        display: none;
+    }
+    .banner-truzt{
+        height: 170px!important;
+        width: 90%;
+    }
+    .btn{
+        margin-top: 40px;
+    }
+    .seccion-nuestrasmarcas{
+        padding-bottom: 0px;
+    }
+    .footer{
+        height: 600px;
+    }
+    .marca-operadora, .marca-fantasy, .marca-imagine {
+        display: block;
+        width: 100%;
+        height: initial;
+        padding-bottom: 40px;
+    }
+    .parrafo-marca {
+        margin-top: 13px;
+    }
+    .content-valores h2.secundario {
+        margin-bottom: 40px;
+    }
+    .premio-item {
+        width: 44%;
+    }
+    .premio-item:nth-child(4n) {
+        margin-right: 23px!important;
+    }
+    .image-suelta {
+        display: none;
+    }
+    .content-productos-loop .w-col {
+        padding-left: 0px;
+    }
+    .productos-fondo-descripcion{
+        margin-left: -200px;
+    }
+    .productos-fondo-descripcion{
+        padding-left: 30px!important;
+    }
+}
+@media screen and (max-width: 800px) {
+    .footer .columna-footer {
+        display: block;
+        width: 100%;
+    }
+    .footer {
+        height: initial;
+        padding-bottom: 130px;
+        padding-top: 130px;
+    }
+    .footer .columna-footer:nth-child(2), .footer .columna-footer:nth-child(3) {
+        width: 44%;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px 15px;
+    }
+    .subtitle-premios {
+        width: 70%;
+    }
+    .productos-fondo-descripcion {
+        margin-left: initial!important;
+    }
+    .productos-fondo-descripcion {
+        min-height: initial!important;
+        margin-top: 50px;
+        padding-left: 0px!important;
+    }
+    .productos-p-descripcion {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 25px 40px;
+    }
+    .h1-seccion-inicial {
+        font-size: 24px!important;
+    }
+
+    .descripcion-seccion {
+        margin-bottom: 0px!important;
+    }
+
+    .seccion.portada-pagina.marcas {
+        min-height: initial;
+    }
+    .logo-comprar {
+        margin: 30px;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .nav-logo {
+        width: 126px;
+        background-size: 275px;
+        height: 60px;
+    }
+    .sub-menu {
+        width: 85%!important;
+    }
+    #tipue_search_input {
+        width: 175px;
+    }
+    .sub-menu {
+        width: 85%!important;
+        position: relative;
+        left: 30px;
+    }
+}
+@media screen and (max-width: 679px) {
+    .home-products .w-col{
+        width: 100%;
+    }
+    .video-item{
+        width: 96.5%;
+    }
+    .h1-nuestros-productos, .h1-nuestras-marcas{
+        font-size: 25px;
+        width: initial!important;
+    }
+    .form-content .alignment-three{
+        display: block;
+        width: 100%!important;
+        padding-left: initial!important;
+    }
+    .h1-contacto {
+        padding-top: 50px;
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .form-content{
+        padding-bottom: 180px;
+    }
+    .footer .columna-footer:nth-child(2), .footer .columna-footer:nth-child(3) {
+        margin: 0px 7px;
+    }
+    .footer-logo {
+        margin-right: 15px!important;
+        width: 96px;
+        height: 45px;
+    }
+    .contacto-field {
+        height: 34px;
+        margin-bottom: 0px;
+    }
+    .form-content label {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .contacto-field.mensaje {
+        height: 90px;
+    }
+    .h1-seccion-inicial {
+        font-size: 28px!important;
+    }
+    .descripcion-seccion {
+        margin-bottom: 20px;
+    }
+    .content-valores .w-col-small-4 {
+        display: block!important;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .secundario {
+        font-size: 18px;
+    }
+    .img-instalaciones-ruz {
+        width: 120px;
+        height: 120px;
+    }
+    .valores-inline {
+        width: 50%;
+    }
+    .valor-title {
+        font-size: 18px;
+    }
+    .valores-inline:last-child .valor-item {
+        display: inline-block;
+        vertical-align: middle;
+        width: 49%;
+    }
+
+    .valores-inline:last-child {
+        width: 100%;
+    }
+    .premio-item {
+        width: 85%;
+        display: block;
+        margin: 0 auto!important;
+        margin-bottom: 30px!important;
+    }
+    .premio-item img {
+        width: 120px;
+    }
+    .premio-item {
+        height: initial;
+        padding-bottom: 40px;
+    }
+    .premio-item:nth-child(4n) {
+        margin: 0 auto!important;margin-bottom: 30px!important;
+    }
+    .producto-img.producto-light-peluches {
+        width: 62%;
+        height: 65%;
+        max-width: 105%;
+        margin-top: -12px;
+        margin-left: 13px;
+        padding-top: 0px;
+    }
+    .descripcion-seccion {
+        width: initial!important;
+    }
+    .sub-menu {
+        width: 100%!important;
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+    }
+    .navbar-social-icon {
+        width: 11%;
+        zoom: 1;
+    }
+    .w-nav[data-collapse="medium"] .w-nav-button {
+        margin-top: -51px;
+    }
+    .sub-menu {
+        text-align: center;
+        padding-left: 40px;
+    }
+
+    .w-nav[data-collapse="medium"] .w-nav-button {
+        margin-top: -51px;
+    }
+
+    #tipue_search_input {
+        width: 140px;
+        height: 28px;
+        line-height: 28px;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    .logo-responsive{
+        width: 100px;
+        display: block;
+        position: absolute;
+        top: -14px;
+        left: 15px;
+    }
+    .redes-nav-responsive {
+        text-align: right;
+        position: relative;
+        padding-right: 15px;
+        margin-top: 20px;
+    }
+    .content-nav-reponsive {
+        position: relative;
+        padding: 0px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .content-nav-reponsive .menu-button {
+        display: block!important;
+        margin-top: initial!important;
+        float: initial!important;
+        position: absolute!important;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+    .content-nav-reponsive .language-switcher {
+        margin: initial;
+        text-align: center;
+        padding: initial;
+        top: 0px;
+        margin: 0px 13px;
+    }
+    .content-nav-reponsive #searchbox {
+        top: initial;
+        width: 60%;
+    }
+    .content-nav-reponsive #tipue_search_input {
+        width: 100%;
+        margin-left: initial;
+    }
+    .w-nav.navbar {
+        display: none;
+    }
+    .item-menu-slide{
+        display: block;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        background: red;
+        font-size: 14px;
+        font-family: 'Alegreya Sans', sans-serif!important;
+    }
+    .slide-menu{
+        display: none;
+    }
+    .ms1{
+        background: #00a9bd;
+    }
+    .ms2{
+        background: #3e8ede;
+    }
+    .ms3{
+        background: #545386;
+    }
+    .ms4{
+        background: #ea188f;
+    }
+    .ms5{
+        background: #f9b600;
+    }
+    .ms6{
+        background: #3db835;
+    }
+    .navbar-social-icon{
+        zoom: 1.4;
+    }
+    .item-menu-slide:last-child {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .menu-button.w--open{
+        border-radius: 7px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .h1-nuestros-productos, .h1-nuestras-marcas{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .avanzar-slider{
+        width: 20px;
+        right: 10px;
+        bottom: 45%;
+    }
+    .retroceder-slider{
+        left: 10px;
+        width: 20px;
+        bottom: 45%;
+    }
+    .home-products-scroll .producto-categoria-circulo{
+        width: 190px;
+        height: 190px;
+    }
+    .home-products {
+        width: 82%;
+    }
+    .btn{
+        margin-top: 0px;
+        font-size: 18px;
+        width: 100%;
+        line-height: 26px;
+        height: 41px;
+    }
+    .button.button-productos, .button.button-marcas, .button.button-publicidad{
+        width: 250px!important;
+    }
+    .banner-truzt{
+        margin-bottom: 10px;
+    }
+    .h1-publicidad{
+        line-height: 0px;
+    }
+    .videos-right {
+        right: -6%;
+        width: 20px;
+        top: 39%;
+    }
+    .videos-left{
+        left: -6%;
+        width: 20px;
+        top: 39%;
+    }
+    .video-item{
+        width: 100%;
+        margin-right: initial;
+    }
+    .slider-videos-slide .video-publicidad{
+        margin: initial!important;
+    }
+    .columna-footer {
+        padding: 0px;
+    }
+    .footer>.w-row {
+        padding: 0px!important;
+    }
+    .footer .w-clearfix {
+        text-align: center!important;
+        margin-top: 0px;
+        background-attachment: initial!important;
+    }
+    .footer-logo {
+        margin-right: 11px!important;
+        width: 78px;
+        height: 50px;
+    }
+    .footer .columna-footer:nth-child(2), .footer .columna-footer:nth-child(3){
+        width: 100%;
+        display: block;
+    }
+    .footer .w-row .w-row {
+        text-align: center!important;
+        padding: initial;
+        margin: initial;
+        padding-left: 36px;
+    }
+    .footer .w-row .w-row .w-col-tiny-2:last-child {
+        display: none;
+    }
+    .seccion-publicidad {
+        padding: 20px 20px 10px;
+    }
+    .valores-inline {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .valores-inline:last-child .valor-item {
+        display: block;
+        width: 100%;
+    }
+    .valor-title {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .valor-item {
+        margin-bottom: 14px;
+    }
+    .valor-des {
+        font-size: 14px;
+        padding-right: initial;
+    }
+    .parrafo-marca {
+        font-size: 14px;
+    }
+    .title-marca {
+        font-size: 16px;
+    }
+    .title-premios {
+        margin-top: 25px;
+    }
+    .premio-item img {
+        width: 100px;
+        margin-bottom: 12px;
+    }
+    .footer-p-ruz {
+        text-align: center;
+    }
+    .seccion.portada-pagina .h1-seccion-inicial {
+        font-size: 20px!important;
+        padding-top: 29px;
+    }
+    .producto-img {
+        width: 90%;
+        height: 100%;
+    }
+    .producto-categoria-circulo {
+        width: 220px;
+        height: 220px;
+    }
+    .logo-comprar {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .parrafo-secundario.p-dondecomprar {
+        padding-left: 0px;
+        width: initial;
+    }
+    .seccion.portada-pagina.publicidad {
+        padding: 0px 20px!important;
+    }
+    .nav-logo {
+        width: 95px;
+        background-size: 215px;
+        height: 60px;
+        top: 14px;
+    }
+    .w-nav{
+        padding-bottom: 0px;
+    }
+}

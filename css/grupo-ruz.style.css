@@ -774,7 +774,7 @@ background-image: url('../images/anuncio-2-2.jpg');
 }
 
 .footer-logo {
-  width: 150px;
+  width: 120px;
   height: 70px;
   margin-top: 10px;
   margin-right: 30px;
@@ -914,9 +914,6 @@ background-image: url('../images/anuncio-2-2.jpg');
 	width: 100%;
 	height: 100%;
 }
-.slider {
-  height: 700px;
-}
 .w-slider-nav.w-shadow > div{
 	box-shadow: 0 0 3px rgba(93, 197, 237, 0.9)!important;
 }
@@ -939,13 +936,6 @@ background-image: url('../images/anuncio-2-2.jpg');
 .h1-nuestros-productos a{
     color: #3e8ede!important;
 }
-#search-results .sub-menu {
-    padding-right: 30px;
-    position: absolute;
-    right: 0px;
-    top: 10px;
-}
-
 #search-results .nav-menu {
     height: 60px;
     margin-right: 20px;
@@ -3464,10 +3454,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     }
 }
 @media (max-width: 1350px) {
-  .nav-logo {
-    width: 300px;
-    height: 81px;
-  }
   #search-results .nav-menu {
     height: 50px;
   }
@@ -3513,9 +3499,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     margin-right: 5px;
     margin-left: 5px;
     }
-    .slider {
-    height: 650px;
-}
+
 }
 @media (max-width: 1230px) {
   .menu-logo {
@@ -3573,10 +3557,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
      }*/
 }
 @media (max-width: 1150px) {
-  .producto-categoria-circulo {
-    width: 180px;
-    height: 180px;
-  }
   .productos-p-descripcion {
     margin-top: 5px;
     padding-right: 0px;
@@ -3596,9 +3576,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
   }
   .logo-responsabilidad{
     background-size: contain;
-  }
-  .slider {
-    height: 600px;
   }
 }
 @media (max-width: 1140px) {
@@ -3760,7 +3737,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     height: 480px;
   }
   .h1-nuestros-productos {
-    width: 280px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -3772,7 +3748,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     margin-right: 20px;
   }
   .h1-nuestras-marcas {
-    width: 240px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -3959,7 +3934,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     background-size: cover;
   }
   .seccion.portada-pagina.publicidad {
-    background-image: url('../images/fondo-publicidad-responsive.jpg');
     background-position: 0px 0px;
     background-size: 960px;
   }
@@ -4022,10 +3996,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
   .producto-fondo-titulo {
     margin-left: -70px;
     padding-left: 70px;
-  }
-  .producto-categoria-circulo {
-    width: 200px;
-    height: 200px;
   }
   .productos-p-descripcion{
     padding-left: 50px;
@@ -4327,9 +4297,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
 @media (max-width: 860px) {
   .footer-logo {
     margin-right: 0px;
-    width: 50%;
-  }
-  .footer-logo.logo-3, .footer-logo.logo-4{
     width: 50%;
   }
   .footer-logo.logo-1, .footer-logo.logo-2, .footer-logo.logo-3, .footer-logo.logo-4{
@@ -4764,10 +4731,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
   .footer-h4 {
     text-align: center;
   }
-  .footer-logo, .footer-logo.logo-3, .footer-logo.logo-4 {
-    width: 25%;
-    height: 30px;
-  }
 
   .slider {
     height: 250px;
@@ -4780,11 +4743,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     font-size: 25px;
     line-height: 35px;
   }
-  .nav-logo {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-  }
+  
   .nav-logo.w--current {
     height: 40px;
   }
@@ -4944,10 +4903,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
   }
 }
 @media (max-width: 450px){
-  .footer-logo, .footer-logo.logo-3, .footer-logo.logo-4 {
-    width: 25%;
-    height: 20px;
-  }
   .marcas-por-categoria .w-col-2 {
     width: 100%!important;
   }
@@ -5093,10 +5048,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
   }
   .button.button-publicidad {
     width: 205px;
-  }
-  .footer-logo, .footer-logo.logo-3, .footer-logo.logo-4 {
-    width: 50%;
-    height: 25px;
   }
   .footer-h4{
     line-height: 30px;

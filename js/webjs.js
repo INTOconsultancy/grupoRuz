@@ -4588,3 +4588,10 @@ Webflow.require('ix').init([
   {"slug":"marcas-home-animation","name":"marcas-home-animation","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"-10deg"}],"stepsB":[{"transition":"transform 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"0deg"}]}]}},
   {"slug":"marcas-home-animation-2","name":"marcas-home-animation-2","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"10deg"}],"stepsB":[{"transition":"transform 500ms ease 0ms","rotateX":"0deg","rotateY":"0deg","rotateZ":"0deg"}]}]}}
 ]);
+
+$( document ).ready(function() {
+	$('.nav-responsive .menu-button').on('click', function(){
+		$(this).toggleClass('w--open');
+		$('.slide-menu').slideToggle();
+	})
+});
