@@ -746,7 +746,7 @@ background-image: url('../images/anuncio-2-2.jpg');
 
 .seccion-publicidad {
   padding: 20px 100px 100px;
-  background-image: url('../images/textura-publicidad.jpg');
+
   background-position: 0px 0px;
   background-size: cover;
   background-position: center;
@@ -4743,7 +4743,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     font-size: 25px;
     line-height: 35px;
   }
-  
+
   .nav-logo.w--current {
     height: 40px;
   }
