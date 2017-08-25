@@ -851,25 +851,25 @@ background-image: url('../images/anuncio-2-2.jpg');
   background-repeat: no-repeat;
 }
 .slide4 {
-  background-image: url('../images/slider-home-4.jpg');
+  background-image: url('../images/slider2017/1.jpg');
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide5 {
-  background-image: url('../images/slider-home-5.jpg');
+  background-image: url('../images/slider2017/2.jpg');
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide6{
-  background-image: url('../images/slider-home-6.jpg');
+  background-image: url('../images/slider2017/3.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .slide7{
-  background-image: url('../images/slider-frozen-princesa.jpg');
+  background-image: url('../images/slider2017/4.jpg');
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
