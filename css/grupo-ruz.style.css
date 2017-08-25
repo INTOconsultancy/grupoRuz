@@ -805,10 +805,10 @@ background-image: url('../images/anuncio-2-2.jpg');
 }
 
 .footer-logo.logo-4 {
-  width: 40px;
+  width: 80px;
   background-image: url('../images/f-logo-4-2.jpg');
   background-position: 0px 50%;
-  background-size: 27px;
+  background-size: 80px;
   background-repeat: no-repeat;
 }
 

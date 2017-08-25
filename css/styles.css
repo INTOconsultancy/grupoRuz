@@ -413,13 +413,14 @@ p.strong.no-pirateria {
 .nav-responsive{
     display: none;
 }
-
-
+.footer-logo:last-child {
+    margin-right: 0px!important;
+}
 
 @media screen and (max-width: 1439px) {
     .footer-logo{
         margin-right: 30px!important;
-        width: 90px;
+        width: 80px!important;
     }
     .menu-logo{
         width: 120px!important;
@@ -912,7 +913,7 @@ p.strong.no-pirateria {
     }
     .footer-logo {
         margin-right: 11px!important;
-        width: 78px;
+        width: 60px!important;
         height: 50px;
     }
     .footer .columna-footer:nth-child(2), .footer .columna-footer:nth-child(3){
