@@ -1099,11 +1099,6 @@ background-image: url('../images/anuncio-2-2.jpg');
     color: #879999;
 }
 
-#search-results #searchbox{
-  width: 300px!important;
-  margin-left: 20px;
-}
-
 #search-results #tipue_search_input{
   width: 200px;
 }
@@ -2591,7 +2586,7 @@ h2.producto-fondo-titulo{
   color: #1ba2d8;
 }
 .productos-p-descripcion {
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 5px;
   padding-right: 10px;
   padding-left: 40px;
@@ -4899,7 +4894,7 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     left: 10px;
   }
   #tipue_search_content {
-    padding: 20% 10%!important;
+    padding: 0% 10%!important;
   }
 }
 @media (max-width: 450px){
@@ -4970,9 +4965,6 @@ html.w-mod-js *[data-ix="animation-45-der"] {
     width: 15%;
     padding-right: 5px;
     padding-left: 5px;
-  }
-  #search-results .w-nav-button.menu-button{
-    top:35px;
   }
 }
 @media (max-width: 370px){

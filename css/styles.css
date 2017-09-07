@@ -322,7 +322,8 @@ h2.producto-fondo-titulo{
     margin-left: 85px;
     color: white!important;
     font-family: 'Alegreya Sans', sans-serif!important;
-    font-size: 14px;
+    font-size: 15.5px;
+    line-height: 22px;
 }
 .productos-fondo-descripcion{
     min-height: 240px!important;
@@ -416,7 +417,15 @@ p.strong.no-pirateria {
 .footer-logo:last-child {
     margin-right: 0px!important;
 }
-
+.complement-search{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    height: 28px;
+}
+.nav-search div#searchbox form:first-child {
+    display: none;
+}
 @media screen and (max-width: 1439px) {
     .footer-logo{
         margin-right: 30px!important;
@@ -843,6 +852,10 @@ p.strong.no-pirateria {
     }
     .menu-button.w--open{
         border-radius: 7px;
+    }
+    body#search-results #searchbox {
+        position: relative;
+        top: -206px;
     }
 }
 @media screen and (max-width: 479px) {
