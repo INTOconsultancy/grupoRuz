@@ -204,22 +204,11 @@ li {
 }
 
 .producto-img.producto-light-lapiceras {
-    width: 55%;
-    height: 50%;
     max-width: 100%;
-    margin-top: -20px;
-    margin-left: 30px;
 }
 
 .producto-img.producto-light-accesorios {
     margin-top: 25px;
-}
-
-.producto-img.producto-light-disfraces {
-    width: 80%;
-    height: 80%;
-    margin: -25px 0px 0px 20px;
-    padding-bottom: 0px;
 }
 
 .producto-img.producto-light-juguetes {
@@ -230,21 +219,8 @@ li {
 }
 
 .producto-img.producto-light-munecas {
-    width: 90%;
-    height: 50%;
-    margin-left: 30px;
     position: relative;
-    left: -20px;
     margin-top: -14px;
-}
-
-.producto-img.producto-light-peluches {
-    width: 93%;
-    height: 65%;
-    max-width: 105%;
-    margin-top: -30px;
-    margin-left: 13px;
-    padding-top: 0px;
 }
 
 .producto-img.producto-light-promocionales {
