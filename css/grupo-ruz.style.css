@@ -234,48 +234,48 @@ li {
 
 .producto-img.producto-1 {
   position: relative;
-  background-image: url('../images/producto-1.png');
+  background-image: url('../images/productos/backpacks-portalaptops.png');
   background-size: cover;
 }
 
 .producto-img.producto-2 {
-  background-image: url('../images/producto-2.png');
+  background-image: url('../images/productos/loncheras.png');
   background-size: contain;
 }
 
 .producto-img.producto-3 {
-  background-image: url('../images/producto-3.png');
+  background-image: url('../images/productos/lapiceras.png');
 }
 
 .producto-img.producto4 {
-  background-image: url('../images/producto-4.png');
+  background-image: url('../images/productos/Accesorios.png');
   background-size: contain;
 }
 
 .producto-img.producto-5 {
-  background-image: url('../images/producto-5.png');
+  background-image: url('../images/productos/Accesorios.png');
   background-size: contain;
 }
 
 .producto-img.producto-6 {
-  background-image: url('../images/producto-6.png');
+  background-image: url('../images/productos/bolsa-infantil.png');
   background-size: contain;
 }
 
 .producto-img.producto-7 {
-  background-image: url('../images/producto-7.png');
+  background-image: url('../images/productos/maletas-deportivas-equipaje.png');
   background-size: contain;
 }
 
 .producto-img.producto-8 {
-  background-image: url('../images/producto-8.png');
+  background-image: url('../images/productos/paralalluvia.png');
   background-size: contain;
 }
 
 .producto-img.producto-9 {
   height: 120%;
   margin-top: -20px;
-  background-image: url('../images/producto-9.png');
+  background-image: url('../images/productos/disfraces.png');
   background-size: contain;
   background-attachment: scroll;
 }
@@ -284,17 +284,17 @@ li {
   width: 110%;
   height: 110%;
   margin-top: -10px;
-  background-image: url('../images/producto-10.png');
+  background-image: url('../images/productos/juguetes.png');
   background-size: contain;
 }
 
 .producto-img.producto-11 {
-  background-image: url('../images/producto-11.png');
+  background-image: url('../images/productos/munecas.png');
   background-size: contain;
 }
 
 .producto-img.producto-12 {
-  background-image: url('../images/producto-12.png');
+  background-image: url('../images/productos/peluches.png');
   background-size: contain;
 }
 

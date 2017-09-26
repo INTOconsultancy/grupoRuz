@@ -427,42 +427,14 @@ p.strong.no-pirateria {
     display: none;
 }
 .content-marcas-fig {
-    height: 2600px;
+    height: 3500px;
     display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
-.content-marcas-fig .w-col:nth-child(76) {
-    order: 1;
-}
-.content-marcas-fig .w-col:nth-child(44) {
-    order: 3;
-}
-
-
-.content-marcas-fig .w-col:nth-child(8) {
-    order: 4;
-}
-.content-marcas-fig .w-col:nth-child(19) {
-    order: 5;
-}
-.content-marcas-fig .w-col:nth-child(1) {
-    order: 6;
-}
-.content-marcas-fig .w-col:nth-child(71) {
-    order: 7;
-}
-.content-marcas-fig .w-col:nth-child(9) {
-    order: 8;
-}
-.content-marcas-fig .w-col:nth-child(74) {
-    order: 9;
-}
-.content-marcas-fig .w-col:nth-child(20) {
-    order: 10;
-}
-.content-marcas-fig .w-col:nth-child(13) {
-    order: 11;
+.content-marcas-prox {
+    width: 100%;
 }
 @media screen and (max-width: 1439px) {
     .footer-logo{
