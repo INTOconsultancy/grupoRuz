@@ -435,6 +435,14 @@ p.strong.no-pirateria {
 }
 .content-marcas-prox {
     width: 100%;
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+}
+.title-prox{
+    font-family: 'Exo', sans-serif!important;
+    font-weight: bolder!important;
+    font-size: 26px!important;
+    color: #545386;
 }
 @media screen and (max-width: 1439px) {
     .footer-logo{
