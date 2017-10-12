@@ -444,6 +444,19 @@ p.strong.no-pirateria {
     font-size: 26px!important;
     color: #545386;
 }
+.section-donde-comprar {
+    padding: 0px;
+    width: 94%;
+    margin: 0 auto;
+}
+.donde-comprar-item{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+}
 @media screen and (max-width: 1439px) {
     .footer-logo{
         margin-right: 30px!important;
@@ -518,6 +531,9 @@ p.strong.no-pirateria {
     }
     .productos-fondo-descripcion {
         margin-left: -220px;
+    }
+    .donde-comprar-item{
+        width: 33.33%;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -874,6 +890,10 @@ p.strong.no-pirateria {
     body#search-results #searchbox {
         position: relative;
         top: -206px;
+    }
+    .donde-comprar-item{
+        width: 50%;
+        height: 100px;
     }
 }
 @media screen and (max-width: 479px) {
