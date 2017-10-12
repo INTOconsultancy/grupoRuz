@@ -427,7 +427,6 @@ p.strong.no-pirateria {
     display: none;
 }
 .content-marcas-fig {
-    height: 3500px;
     display: -webkit-flex; /* Safari */
     display: flex;
     flex-wrap: wrap;
@@ -456,6 +455,12 @@ p.strong.no-pirateria {
     height: 130px;
     background-size: cover;
     background-position: center;
+}
+@media screen and (min-width: 1650px) {
+    .donde-comprar-item{
+        height: 200px;
+        width: 25%;
+    }
 }
 @media screen and (max-width: 1439px) {
     .footer-logo{
@@ -892,8 +897,8 @@ p.strong.no-pirateria {
         top: -206px;
     }
     .donde-comprar-item{
-        width: 50%;
-        height: 100px;
+        width: 100%;
+        height: 135px;
     }
 }
 @media screen and (max-width: 479px) {
