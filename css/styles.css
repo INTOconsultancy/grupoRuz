@@ -764,7 +764,6 @@ p.strong.no-pirateria {
         margin: 0 auto!important;margin-bottom: 30px!important;
     }
     .producto-img.producto-light-peluches {
-        width: 62%;
         height: 65%;
         max-width: 105%;
         margin-top: -12px;
@@ -1029,8 +1028,15 @@ p.strong.no-pirateria {
         padding-top: 29px;
     }
     .producto-img {
-        width: 90%;
+        width: 100%;
         height: 100%;
+    }
+    .producto-img.producto-light-munecas{
+        margin-top: 0px!important;
+    }
+    .producto-img.producto-light-peluches{
+        margin-left: 0px;
+        margin-top: 0px;
     }
     .producto-categoria-circulo {
         width: 220px;
